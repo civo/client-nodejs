@@ -12,7 +12,11 @@ Simply include the `main.js` JavaScript file in your application.  The tests wit
 
 ## Tests
 
-Tests do exist but more are currently in development
+Tests do exist but more are currently in development.  In order to run the tests, create an environment variable within your operating system called `CIVO_TOKEN` and populate it with your own Civo API token. Then, the tests may be run by navigating to the `/test` directory and running:
+
+```
+npm run test
+```
 
 ## Documentation
 
